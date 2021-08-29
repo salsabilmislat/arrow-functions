@@ -153,7 +153,7 @@ console.log(sumAndProduct(3, 9));
 //     return `Hello, ${name}!`;
 // };
 
-let message = (name) => `Hello, ${name}!`;
+let message = name => `Hello, ${name}!`;
 
 
 // TODO: Uncomment the following line of code to see the output in the browser console
@@ -227,8 +227,8 @@ console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-// it is undefined
+// it is student
 // 2. What is "this" when joe.scopeArrow() is invoked?
-// it is undefined
+// it is window
 // 3. Explain why "this" is different when an arrow function is used.
-//  what i know from the reserch that in the arrow function we can have this value but we can not have it in normal function becuase it is not globaly declaered
+//   the scope in normal function is the function itself .i can not use with the normal constracter an arrow functin as prototype , but if i use it with class it will work fine therefore the normal function want work and it will give you undifined
